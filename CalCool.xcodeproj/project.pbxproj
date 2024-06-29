@@ -11,6 +11,7 @@
 		0CCF6BFF2C2FE4BE00F82431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF6BFE2C2FE4BE00F82431 /* ContentView.swift */; };
 		0CCF6C012C2FE4BF00F82431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF6C002C2FE4BF00F82431 /* Assets.xcassets */; };
 		0CCF6C042C2FE4BF00F82431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF6C032C2FE4BF00F82431 /* Preview Assets.xcassets */; };
+		0CCF6C0C2C30034000F82431 /* All-btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF6C0B2C30034000F82431 /* All-btn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0CCF6BFE2C2FE4BE00F82431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CCF6C002C2FE4BF00F82431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCF6C032C2FE4BF00F82431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CCF6C0B2C30034000F82431 /* All-btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "All-btn.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		0CCF6BFB2C2FE4BE00F82431 /* CalCool */ = {
 			isa = PBXGroup;
 			children = (
+				0CCF6C0A2C30033100F82431 /* btn */,
 				0CCF6BFC2C2FE4BE00F82431 /* CalCoolApp.swift */,
 				0CCF6BFE2C2FE4BE00F82431 /* ContentView.swift */,
 				0CCF6C002C2FE4BF00F82431 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				0CCF6C032C2FE4BF00F82431 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CCF6C0A2C30033100F82431 /* btn */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF6C0B2C30034000F82431 /* All-btn.swift */,
+			);
+			path = btn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				0CCF6BFF2C2FE4BE00F82431 /* ContentView.swift in Sources */,
 				0CCF6BFD2C2FE4BE00F82431 /* CalCoolApp.swift in Sources */,
+				0CCF6C0C2C30034000F82431 /* All-btn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
