@@ -12,6 +12,8 @@
 		0CCF6C012C2FE4BF00F82431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF6C002C2FE4BF00F82431 /* Assets.xcassets */; };
 		0CCF6C042C2FE4BF00F82431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCF6C032C2FE4BF00F82431 /* Preview Assets.xcassets */; };
 		0CCF6C0C2C30034000F82431 /* All-btn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF6C0B2C30034000F82431 /* All-btn.swift */; };
+		0CCF6C0F2C30603500F82431 /* CalCool v 1.0 .swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF6C0E2C30603500F82431 /* CalCool v 1.0 .swift */; };
+		0CCF6C112C306CF500F82431 /* GitHub v 1.0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCF6C102C306CF500F82431 /* GitHub v 1.0.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		0CCF6C002C2FE4BF00F82431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCF6C032C2FE4BF00F82431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0CCF6C0B2C30034000F82431 /* All-btn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "All-btn.swift"; sourceTree = "<group>"; };
+		0CCF6C0E2C30603500F82431 /* CalCool v 1.0 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CalCool v 1.0 .swift"; sourceTree = "<group>"; };
+		0CCF6C102C306CF500F82431 /* GitHub v 1.0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitHub v 1.0.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		0CCF6BFB2C2FE4BE00F82431 /* CalCool */ = {
 			isa = PBXGroup;
 			children = (
+				0CCF6C0D2C30602300F82431 /* version of code */,
 				0CCF6C0A2C30033100F82431 /* btn */,
 				0CCF6BFC2C2FE4BE00F82431 /* CalCoolApp.swift */,
 				0CCF6BFE2C2FE4BE00F82431 /* ContentView.swift */,
@@ -76,6 +81,15 @@
 				0CCF6C0B2C30034000F82431 /* All-btn.swift */,
 			);
 			path = btn;
+			sourceTree = "<group>";
+		};
+		0CCF6C0D2C30602300F82431 /* version of code */ = {
+			isa = PBXGroup;
+			children = (
+				0CCF6C0E2C30603500F82431 /* CalCool v 1.0 .swift */,
+				0CCF6C102C306CF500F82431 /* GitHub v 1.0.swift */,
+			);
+			path = "version of code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCF6C112C306CF500F82431 /* GitHub v 1.0.swift in Sources */,
 				0CCF6BFF2C2FE4BE00F82431 /* ContentView.swift in Sources */,
+				0CCF6C0F2C30603500F82431 /* CalCool v 1.0 .swift in Sources */,
 				0CCF6BFD2C2FE4BE00F82431 /* CalCoolApp.swift in Sources */,
 				0CCF6C0C2C30034000F82431 /* All-btn.swift in Sources */,
 			);
